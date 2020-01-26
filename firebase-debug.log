@@ -1,0 +1,50 @@
+[debug] [2020-01-26T00:06:14.112Z] ----------------------------------------------------------------------
+[debug] [2020-01-26T00:06:14.113Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2020-01-26T00:06:14.113Z] CLI Version:   7.12.1
+[debug] [2020-01-26T00:06:14.113Z] Platform:      darwin
+[debug] [2020-01-26T00:06:14.113Z] Node Version:  v12.14.1
+[debug] [2020-01-26T00:06:14.114Z] Time:          Sat Jan 25 2020 19:06:14 GMT-0500 (Eastern Standard Time)
+[debug] [2020-01-26T00:06:14.114Z] ----------------------------------------------------------------------
+[debug] [2020-01-26T00:06:14.114Z] 
+[debug] [2020-01-26T00:06:14.119Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-01-26T00:06:14.120Z] > authorizing via signed-in user
+[debug] [2020-01-26T00:06:14.120Z] [iam] checking project arrow-protection-services for permissions ["firebase.projects.get"]
+[debug] [2020-01-26T00:06:14.121Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/arrow-protection-services:testIamPermissions  
+
+[debug] [2020-01-26T00:06:14.535Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-26T00:06:14.537Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/arrow-protection-services  
+ 
+[debug] [2020-01-26T00:06:14.846Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/anirudhkalia/Projects/arrow-protection-services'...
+[info] 
+[debug] [2020-01-26T00:06:14.849Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/arrow-protection-services/webApps/-/config  
+ 
+[debug] [2020-01-26T00:06:15.253Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2020-01-26T00:29:16.633Z] ----------------------------------------------------------------------
+[debug] [2020-01-26T00:29:16.635Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2020-01-26T00:29:16.635Z] CLI Version:   7.12.1
+[debug] [2020-01-26T00:29:16.635Z] Platform:      darwin
+[debug] [2020-01-26T00:29:16.635Z] Node Version:  v12.14.1
+[debug] [2020-01-26T00:29:16.638Z] Time:          Sat Jan 25 2020 19:29:16 GMT-0500 (Eastern Standard Time)
+[debug] [2020-01-26T00:29:16.638Z] ----------------------------------------------------------------------
+[debug] [2020-01-26T00:29:16.638Z] 
+[debug] [2020-01-26T00:29:16.647Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-01-26T00:29:16.647Z] > authorizing via signed-in user
+[debug] [2020-01-26T00:29:16.647Z] [iam] checking project arrow-protection-services for permissions ["firebase.projects.get"]
+[debug] [2020-01-26T00:29:16.649Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/arrow-protection-services:testIamPermissions  
+
+[debug] [2020-01-26T00:29:17.106Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-26T00:29:17.108Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/arrow-protection-services  
+ 
+[debug] [2020-01-26T00:29:17.512Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/anirudhkalia/Projects/arrow-protection-services'...
+[info] 
+[debug] [2020-01-26T00:29:17.515Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/arrow-protection-services/webApps/-/config  
+ 
+[debug] [2020-01-26T00:29:17.922Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
